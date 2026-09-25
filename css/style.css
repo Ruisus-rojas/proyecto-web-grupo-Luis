@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.nav-list{
+    display: flex;
+    padding-left: 5px;
+    flex-direction: row;
+}
+.nav-list .ul-lista{
+    display: flex;
+    text-decoration: none;
+    padding-left: 5px;
+    gap: 20px;
+}
+.ul-lista .lista{
+    display: flex;
+    text-decoration: none;
+}
