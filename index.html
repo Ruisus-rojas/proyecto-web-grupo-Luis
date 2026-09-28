@@ -1,97 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Trabajo Grupo</title>
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
+
     <header>
+
         <div class="container">
-            <div><b>TechNova<span>Studio</span></b></div>
+
+            <div>
+
+                <b>TechNova<span>Studio</span></b>
+
+            </div>
+
             <nav class="nav-list">
+
                 <ul class="ul-lista">
-                    <li class="lista">Inicio</li>
-                    <li class="lista">Servicios</li>
-                    <li class="lista">Equipo</li>
-                    <li class="lista">Contacto</li>
+
+                    <li class="lista">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="lista">
+                        <a href="#servicios">Servicios</a>
+                    </li>
+
+                    <li class="lista">
+                        <a href="#equipo">Equipo</a>
+                    </li>
+
+                    <li class="lista">
+                        <a href="#contacto">Contacto</a>
+                    </li>
+
                 </ul>
+
             </nav>
+
         </div>
+
     </header>
+
     <main>
-        <section class="section1">
-            <div class="titulo-section1"><b>Transformamos Ideas en Software de Alto Impacto</b></div>
-            <div class="contenido-section1">Somos un equipo especialista en desarrollo web, arquitecturas cliente-servidor y soluciones digitales a la medida.</div>
-            <button class="boton-section1"><b>Ver Nuestros Servicios</b></button>
-        </section>
-        <section>
+
+        <section class="section1" id="inicio">
+
+            <div class="titulo-section1">
+
+                <b>Transformamos Ideas en Software de Alto Impacto</b>
+
+            </div>
+
+            <div class="contenido-section1">
+
+                Somos un equipo especialista en desarrollo web,
+                arquitecturas cliente-servidor y soluciones digitales a la medida.
+
+            </div>
+
+            <a href="#servicios">
+                <button class="boton-section1">
+                    Ver Nuestros Servicios
+                </button>
+            </a>
 
         </section>
-        <section>
+
+        <section class="servicios" id="servicios">
+
+            <h2 class="servicios-titulo">
+
+                Nuestros Servicios
+
+            </h2>
+
+            <div class="servicios-linea"></div>
+
+            <div class="servicios-grid">
+
+                <article class="servicios-card">
+
+                    <h3>Desarrollo Web</h3>
+
+                    <p>
+
+                        Construcción de aplicaciones web modernas,
+                        rápidas, escalables y adaptables a cualquier dispositivo.
+
+                    </p>
+
+                </article>
+
+                <article class="servicios-card">
+
+                    <h3>Diseño UI/UX</h3>
+
+                    <p>
+
+                        Creación de interfaces intuitivas enfocadas en ofrecer
+                        la mejor experiencia de usuario posible.
+
+                    </p>
+
+                </article>
+
+                <article class="servicios-card">
+
+                    <h3>Bases de Datos</h3>
+
+                    <p>
+
+                        Modelado, optimización y administración de bases de datos
+                        relacionales garantizando la seguridad.
+
+                    </p>
+
+                </article>
+
+            </div>
 
         </section>
-        <section class="Seccion3">
+
+        <section class="Seccion3" id="equipo">
+
             <h1>Equipo Desarrollador</h1>
 
             <div class="equipo3">
 
                 <article class="articulo-equipo3">
+
                     <div class="contenedor-img3">
+
                         <img src="img/1.jpg" alt="Aprendiz 1" class="img-equipo3">
+
                     </div>
+
                     <h3>Aprendiz 1</h3>
+
                     <p>Líder & Git Master</p>
+
                 </article>
 
                 <article class="articulo-equipo3">
+
                     <div class="contenedor-img3">
+
                         <img src="img/2.jpg" alt="Aprendiz 2" class="img-equipo3">
+
                     </div>
+
                     <h3>Aprendiz 2</h3>
+
                     <p>Frontend Developer</p>
+
                 </article>
 
                 <article class="articulo-equipo3">
+
                     <div class="contenedor-img3">
+
                         <img src="img/3.jpg" alt="Aprendiz 3" class="img-equipo3">
+
                     </div>
+
                     <h3>Aprendiz 3</h3>
+
                     <p>CSS & Layout Specialist</p>
+
                 </article>
 
                 <article class="articulo-equipo3">
+
                     <div class="contenedor-img3">
+
                         <img src="img/4.jpg" alt="Aprendiz 4" class="img-equipo3">
+
                     </div>
+
                     <h3>Aprendiz 4</h3>
+
                     <p>Backend & QA Developer</p>
+
                 </article>
 
-        </div>
-    </section>
-    <section class="Seccion4">
-        <h1>Contáctanos</h1>
+            </div>
 
-        <div class="contenedor-contacto4">
-            <form class="formulario4">
-                <label for="nombre">Nombre Completo:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required> 
+        </section>
 
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+        <section class="Seccion4" id="contacto">
 
-                <label for="mensaje">Mensaje o Requerimiento:</label>
-                <textarea id="mensaje" name="mensaje"  placeholder="Escribe tu mensaje aquí..." required> </textarea>
-                <button type="submit">Enviar Mensaje</button>
-            </form>
-        </div>
-    </section>
-        
+            <h1>Contáctanos</h1>
+
+            <div class="contenedor-contacto4">
+
+                <form class="formulario4">
+
+                    <label for="nombre">
+                        Nombre Completo:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingresa tu nombre"
+                        required
+                    >
+
+                    <label for="correo">
+                        Correo Electrónico:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="correo@ejemplo.com"
+                        required
+                    >
+
+                    <label for="mensaje">
+                        Mensaje o Requerimiento:
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        placeholder="Escribe tu mensaje aquí..."
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        Enviar Mensaje
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
     </main>
     <footer>
-        &copy; 2026 TechNova Studio - Tecnologo en Analisis y Desarrollo de Software (ADSO)| SENA
+        &copy; 2026 TechNova Studio - Tecnólogo en Análisis y Desarrollo de Software (ADSO) | SENA
     </footer>
 </body>
 </html>
